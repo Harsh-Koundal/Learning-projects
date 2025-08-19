@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-container {
+    margin: 50px;
+    /* border: 2px solid black; */
+    height: 312px;
+    width: 440px;
+    box-shadow: 0px 2px 20px 0;
+    border-radius: 15px;
+}
+
+.title-container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 300px; */
+    height: 100px;
+}
+
+.entery-container h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.DateOfBirth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.btn {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 18px;
+    width: 135px;
+    height: 41px;
+}
+
+.age p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: larger;
+}
