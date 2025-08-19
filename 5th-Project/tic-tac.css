@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem ;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3) ;
+    font-size: 8vmin;
+    color:#bc2424 ;
+    background-color:azure;
+}
+#reset{
+    border: none;
+    border-radius: 3rem;
+    width: 15vmin;
+    height: 7vmin;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3) ;
+
+
+}
+
+#winner{
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.msg-container{
+    margin-top: 22px;
+    height: 4rem;
+}
+
+#customAlert{
+    width: 40%;
+    height: 20%;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  display: none;
+  z-index: 9999;
+  text-align: center;
+}
+#customAlert p {
+    position: relative;
+    top: 10px;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#customAlert button {
+  margin-top: 25px;
+  padding: 8px 16px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
