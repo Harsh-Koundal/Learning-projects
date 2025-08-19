@@ -31,5 +31,5 @@ It reflects my growth from basics → advanced concepts → real-world applicati
 ## 📂 How to Run Projects
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/js-learning-projects.git
-   cd js-learning-projects
+   git clone https://github.com/Harsh-Koundal/Learning-projects.git
+   cd Learning-projects
