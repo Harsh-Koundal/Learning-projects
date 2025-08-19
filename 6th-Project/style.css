@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: #fff;
+    margin: 100px 0;
+    /* border: 2px solid black; */
+    height: 305px;
+    width: 50vw;
+    border-radius: 10px;
+    box-shadow:  0 0 20px 0  ;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.image img {
+    width: 140px;
+    margin: 25px 0;
+}
+
+.flip {
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+
+#customAlert{
+    width: 30%;
+    height: 20%;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  display: none;
+  z-index: 9999;
+  text-align: center;
+}
+#customAlert p {
+    position: relative;
+    top: 10px;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#customAlert button {
+  margin-top: 25px;
+  padding: 8px 16px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
