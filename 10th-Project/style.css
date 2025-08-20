@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(45deg , purple,white,blue);
+
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 50vw;
+
+}
+.starting{
+    display: none;
+}
+
+hr{
+    background-color: rgb(134, 10, 229);
+    width: 80%;
+    height: 0.7px;
+    position: relative;
+    bottom: 10px;
+}
+
+.title h1{
+        margin-left: 35px;
+}
+
+.start{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:12px 0;
+}
+#start{
+   border: none;
+   background:linear-gradient(45deg,purple,white,blue);
+   width: 80px;
+   text-align: center;
+   height: 25px;
+   border-radius: 5px;
+   color: black;
+   font-weight: 600;
+   cursor:pointer ;
+}
+
+.questions{
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.answers {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  gap: 10px; /* optional spacing between buttons */
+  margin-top: 20px;
+}
+
+.answers .btn {
+    background-color: white;
+  padding: 5px 0;
+  width: max-content;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 80%;
+    margin: 0 35px;
+}
+
+.answers .btn:hover{
+    background-color: rgb(186, 144, 197);
+}
+
+.next{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(120, 231, 22);
+    width: 65px;
+    height: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 8px 1px;
+    cursor: pointer;
+}
