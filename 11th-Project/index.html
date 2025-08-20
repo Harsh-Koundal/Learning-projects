@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <div class="main-container">
+    <div class="head-container">
+
+        <header>
+            <nav>
+                <div class="icons">
+                    <div class="icon"><i class="fa-solid fa-less-than"></i></div>
+                    <div class="icon"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </nav>
+        </header>
+        </div>
+
+        <main>
+            <div class="content">
+                <div class="image">
+                    <img src="img/Revamped-Vol-1-Remix--Urdu-2022-20220219014031-500x500.webp" alt="">
+                    <audio 
+                     id="songs">
+                <source src="songs/Kali Kali Zulfon - (Raag.Fm).mp3"></audio>
+                    <h3 class="s-name">kali kali zulfon</h3>
+                    <p class="s-writer">Nusrat Fateh Ali Khan</p>
+                </div>
+                <div class="line-bar">
+                   <div class="circle"></div> 
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="play-bar">
+                <div class="previous bar">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="play bar"><i class="fa-solid fa-play"></i></div>  
+                <!-- <i class="fa-solid fa-pause"></i> -->
+                <div class="next bar"><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </footer>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
