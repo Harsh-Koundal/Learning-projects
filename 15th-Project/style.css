@@ -1,0 +1,32 @@
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.slides{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.slider img{
+    width: 50%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+}
+
+.slider button{
+  position: absolute;   
+  top: 50%;
+  transform:  translateY(-50%);
+  padding:  10px 15px;
+}
+
+.next{
+    left: 90%;
+}
