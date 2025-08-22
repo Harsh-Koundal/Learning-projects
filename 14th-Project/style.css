@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(6, 37, 76);
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+.submit {
+  border-radius: 5px;
+  height: 2rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 0; /* start at the top */
+  left: 50%;
+  transform: translate(-50%, -200%) scale(0.1); /* hide it above view */
+  visibility: hidden;
+  background-color: white;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.4s ease, visibility 0.4s ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.open-popup {
+    position: absolute;
+    top: 35%;
+  visibility: visible;
+  transform: translate(-50%, 0) scale(1); /* slide down into place */
+}
