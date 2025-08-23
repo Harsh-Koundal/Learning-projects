@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(90deg,rgb(208, 78, 208),rgb(89, 89, 248));
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+}
+h1{
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#notes{
+    border: none;
+    background-color: white;
+    height: 2rem;
+    margin: 15px 0;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.note-container {
+    position: relative;
+    display: inline-block; /* shrinkwrap */
+    margin-bottom: 20px;
+  }
+
+  .note-container textarea {
+    display: block;
+    width: 300px;
+    height: 100px;
+    padding-right: 50px; /* leave space for button */
+    box-sizing: border-box;
+  }
+
+  .note-container button {
+    position: absolute;
+    bottom: 20px;
+    right: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+.note-container{
+     margin-top: 15px;
+}
