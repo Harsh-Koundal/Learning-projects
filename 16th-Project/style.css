@@ -1,0 +1,19 @@
+
+body{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+i{
+    position: absolute;
+    color: black;
+    left: 440px;
+    cursor: pointer;
+}
