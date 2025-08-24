@@ -1,0 +1,46 @@
+body{
+    background: url('https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/nice/38_nice.jpg') no-repeat center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.496);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #000;
+      text-align: center;
+}
+
+#qr{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: none;
+}
+.style{
+    margin: 12px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.918);
+    
+}
+#input{
+    padding-left: 10px;
+}
+
+#convert{
+    width: 4rem;
+    height: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
