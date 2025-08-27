@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+body {
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: end;
+}
+
+.logo img {
+    width: 50%;
+}
+
+header nav {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    margin-right: auto;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: rgba(255, 255, 255, 0.719);
+    transition: 0.1s ease-in-out;
+}
+
+nav button {
+    width: 4rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 3rem;
+}
+
+#home {
+    margin: 115px auto;
+    width: 80%;
+}
+
+#home h1 {
+    font-size: 4rem;
+    width: 45%;
+}
+
+span {
+    color: rgb(224, 224, 3);
+}
+
+#home button {
+    width: 9rem;
+    height: 2rem;
+    border-radius: 15px;
+    background-color: rgb(225, 225, 4);
+    color: black;
+    margin-top: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin: 0 30px;
+}
+
+.coin-list {
+    display: flex;
+    width: 50rem;
+    margin-right: 2rem;
+}
+
+.coin {
+    display: grid;
+    text-align: center;
+    border: 1px solid ;
+    margin: 12px;
+    border-radius: 15px;
+}
+.coin div{
+    height: 10vh;
+
+}
+
+.coin img {
+    width: 15%;
+    position: relative;
+    top: 30px;
+    left: 45px;
+}
