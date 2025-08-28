@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(255, 66, 255), rgb(55, 55, 250));
+}
+
+.calander {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.date-day {
+    background-color: white;
+    width: 25vw;
+    height: 45vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.month-year {
+    color: white;
+    background-color: rgb(249, 84, 29);
+    width: 15vw;
+    height: 45vh;
+    border-radius: 0 10px 10px 0;
+}
+
+#date{
+    margin-top: 15vh;
+ font-size: 5rem;
+}
+#month{
+    margin-top: 20vh;
+    font-size: 2rem;
+}
